@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+<h1>loops and functions</h1>
+    
+    <script> 
+    for (let i = 1; i<=10; i++){
+        console.log("hellow world",i);
+    }
+    for(let j =10; j>= 0;j--){
+        console.log(j);
+    }
+
+     for (let i = 1; 1 <= 5; i++){
+        let astericks ="";
+        for( let j = i; j >= 1;){
+            astericks = astericks + "*";
+        }
+        console.log(astericks);
+     }
+    
+// While loop
+let i=1;
+let name="";
+while (i<=5){
+    let nm=prompt('enter name --$(i)');
+    name=name + nm;
+    i++
+}
+
+let age =prompt("enter your age ?");
+age = number(age);
+
+while (age <=0){
+    age=prompt("enter your age again?");
+    age=number(age);
+}
+
+let byear=prompt("enter your date of birth");
+byear=number(byear)
+
+while (byear <=10){
+    byear=prompt("enter your byear again");
+    byear=number(byear)
+}
+
+
+
+    </script>
+</body>
+</html>
